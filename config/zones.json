@@ -1,0 +1,32 @@
+{
+  "zones": {
+    "living_room": {
+      "name": "Living Room",
+      "devices": ["192.168.1.100"],
+      "start_led": 0,
+      "led_count": 30,
+      "description": "Main living room ambient lighting"
+    },
+    "kitchen": {
+      "name": "Kitchen", 
+      "devices": ["192.168.1.100"],
+      "start_led": 30,
+      "led_count": 30,
+      "description": "Kitchen counter lighting"
+    },
+    "bedroom": {
+      "name": "Bedroom",
+      "devices": ["192.168.1.101"],
+      "start_led": 0,
+      "led_count": 30,
+      "description": "Bedroom ambient lighting"
+    },
+    "all": {
+      "name": "All Zones",
+      "devices": ["192.168.1.100", "192.168.1.101"],
+      "start_led": 0,
+      "led_count": 90,
+      "description": "All connected LED strips"
+    }
+  }
+}

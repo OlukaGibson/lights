@@ -1,0 +1,30 @@
+{
+  "devices": [
+    {
+      "name": "Living Room Strip",
+      "ip": "192.168.1.100",
+      "port": 4048,
+      "led_count": 60,
+      "led_type": "SK6812",
+      "start_index": 0,
+      "reverse": false,
+      "brightness": 255
+    },
+    {
+      "name": "Bedroom Strip",
+      "ip": "192.168.1.101", 
+      "port": 4048,
+      "led_count": 30,
+      "led_type": "SK6812",
+      "start_index": 60,
+      "reverse": false,
+      "brightness": 200
+    }
+  ],
+  "global_settings": {
+    "max_brightness": 255,
+    "default_fps": 30,
+    "discovery_timeout": 5,
+    "packet_timeout": 1000
+  }
+}

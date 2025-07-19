@@ -1,0 +1,85 @@
+{
+  "effects": {
+    "solid": {
+      "name": "Solid Color",
+      "description": "Single solid color across all LEDs",
+      "parameters": {
+        "color": [255, 255, 255],
+        "brightness": 255
+      }
+    },
+    "rainbow": {
+      "name": "Rainbow Cycle",
+      "description": "Cycling rainbow effect",
+      "parameters": {
+        "speed": 50,
+        "brightness": 200,
+        "direction": 1
+      }
+    },
+    "fire": {
+      "name": "Fire Effect",
+      "description": "Flickering fire simulation",
+      "parameters": {
+        "intensity": 80,
+        "cooling": 50,
+        "sparking": 120,
+        "brightness": 220
+      }
+    },
+    "breathe": {
+      "name": "Breathing Effect",
+      "description": "Smooth brightness pulsing",
+      "parameters": {
+        "color": [255, 200, 100],
+        "speed": 30,
+        "min_brightness": 50,
+        "max_brightness": 255
+      }
+    },
+    "twinkle": {
+      "name": "Twinkle Stars", 
+      "description": "Random sparkle effects",
+      "parameters": {
+        "density": 20,
+        "speed": 40,
+        "background_color": [0, 0, 50],
+        "twinkle_color": [255, 255, 255]
+      }
+    }
+  },
+  "presets": {
+    "morning": {
+      "name": "Morning Warm",
+      "effect": "solid",
+      "parameters": {
+        "color": [255, 200, 100],
+        "brightness": 180
+      }
+    },
+    "evening": {
+      "name": "Evening Relax",
+      "effect": "fire",
+      "parameters": {
+        "intensity": 60,
+        "brightness": 150
+      }
+    },
+    "party": {
+      "name": "Party Mode",
+      "effect": "rainbow",
+      "parameters": {
+        "speed": 80,
+        "brightness": 255
+      }
+    },
+    "night": {
+      "name": "Night Light",
+      "effect": "solid",
+      "parameters": {
+        "color": [255, 100, 0],
+        "brightness": 50
+      }
+    }
+  }
+}
