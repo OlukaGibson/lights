@@ -51,7 +51,7 @@ class EffectGenerator:
 
 
 def run_rainbow_demo(clients_and_devices, duration=10):
-    """Demonstrate rainbow cycle effect"""
+    """Demonstrate rainbow cycle effect""" 
     print("Running Rainbow Effect...")
     
     start_time = time.time()
