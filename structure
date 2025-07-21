@@ -1,0 +1,42 @@
+c:\Users\gibso\Documents\lights\
+│
+├── main.py                          # Main application entry point
+├── requirements.txt                 # Python dependencies
+├── .gitignore                      # Git ignore file
+├── README.md                       # Project documentation
+├── config.py                       # Configuration settings
+│
+├── controllers\                    # Business logic controllers
+│   ├── __init__.py
+│   └── ledcontrol.py              # LED processing functions
+│
+├── protocols\                      # Network protocol implementations
+│   ├── __init__.py
+│   └── ddp_server.py              # DDP protocol server
+│
+├── utils\                          # Utility modules
+│   ├── __init__.py
+│   ├── led_mapper.py              # LED strip mapping utilities
+│   └── color_utils.py             # Color processing utilities
+│
+├── models\                         # Data models and structures
+│   ├── __init__.py
+│   └── led_frame.py               # LED frame data structures
+│
+├── tests\                          # Unit tests
+│   ├── __init__.py
+│   ├── test_ledcontrol.py
+│   ├── test_ddp_server.py
+│   └── test_led_mapper.py
+│
+├── examples\                       # Example usage scripts
+│   ├── simple_image_test.py
+│   ├── video_demo.py
+│   └── screen_capture_demo.py
+│
+├── docs\                           # Documentation
+│   ├── API.md
+│   ├── DDP_Protocol.md
+│   └── LED_Setup.md
+│
+└── venv\                           # Virtual environment (in .gitignore)
